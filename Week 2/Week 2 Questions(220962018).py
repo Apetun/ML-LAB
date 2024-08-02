@@ -51,7 +51,7 @@ data.head()
 
 
 x=data["month_number"]
-y=data["total_profbit"]
+y=data["total_profit"]
 plt.xlabel("Month Number")
 plt.ylabel("Total Profit")
 plt.plot(x,y)
